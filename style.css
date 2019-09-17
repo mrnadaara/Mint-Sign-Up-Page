@@ -4,7 +4,7 @@ body {
   font-weight: 400;
 }
 
-main{
+main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,6 +20,7 @@ main{
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  line-height: 0.2;
 }
 
 #rightNav {
@@ -35,7 +36,7 @@ main{
 #signup {
   width: 300px;
   height: 50px;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0 20px 0;
 }
 
 .btn {
@@ -58,13 +59,6 @@ main{
   font-size: 12px;
 }
 
-#content-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 0.2;
-}
-
 #form-header {
   display: flex;
   align-items: center;
@@ -72,24 +66,26 @@ main{
   padding: 10px;
 }
 
-#form-header h2, h3, h6 {
+#form-header h2,
+h3,
+h6 {
   text-align: center;
 }
 
-#form-content{
+#form-content {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-#form-content p{
+#form-content p {
   text-align: center;
   padding: 20px;
   font-style: italic;
   color: gray;
 }
 
-footer p{
+#footer {
   text-align: center;
   padding: 30px;
 }
@@ -100,18 +96,18 @@ footer p{
   justify-content: center;
   width: 400px;
   border: 1px solid black;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
-form{
+form {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 300px;
 }
 
-label{
-  padding: 10px 0px 10px 0px;
+label {
+  padding: 10px 0 10px 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -119,7 +115,7 @@ label{
   width: 300px;
 }
 
-input{
+input {
   margin-top: 10px;
   width: 300px;
   height: 30px;
@@ -131,12 +127,12 @@ input{
   justify-content: center;
 }
 
-ul{
+ul {
   display: flex;
   justify-content: center;
 }
 
-ul li{
+li {
   display: flex;
   justify-content: space-between;
 }
@@ -150,21 +146,4 @@ ul li{
   width: 100px;
   height: 20px;
   margin-top: 25px;
-}
-
-#account-button {
-  background-color: #0077c5;
-  color: white;
-  text-align: center;
-}
-
-#form {
-  border: none;
-}
-.form-items {
-  font-size: 20px;
-}
-
-#small-text {
-  font-size: 10px;
 }
