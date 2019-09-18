@@ -72,10 +72,19 @@ h6 {
   text-align: center;
 }
 
+#form-header h2 {
+  margin-bottom: 20px;
+}
+
+#form-header h6 {
+  margin: 0;
+}
+
 #form-content {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 10px;
 }
 
 #form-content p {
@@ -135,15 +144,12 @@ ul {
 li {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 .logo {
-  width: 100px;
-  height: 70px;
-}
-
-#turbo-logo {
-  width: 100px;
-  height: 20px;
-  margin-top: 25px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
